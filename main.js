@@ -2,7 +2,7 @@ function main() {
   var kanvas = document.getElementById('kanvas');
   var gl = kanvas.getContext('webgl');
 
-  var vertices = [0.0, 0.25, -0.25, 0.25, -0.25, 0.0, 0.0, 0.0, 0.0, 0.25, 0.0, 0.0, 0.0, -0.25, -0.25, -0.25];
+  var vertices = [-0.75, 0.25, -0.95, 0.25, -0.95, 0.0, -0.75, 0.0, -0.75, 0.25, -0.75, 0.0, -0.75, -0.25, -0.95, -0.25];
 
   var buffer = gl.createBuffer();
   gl.bindBuffer(gl.ARRAY_BUFFER, buffer);
